@@ -1,7 +1,12 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Made Gentle";
+  src: url("./assets/MADE Gentle PERSONAL USE.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
+
 
 .read-the-docs {
   color: #888;
