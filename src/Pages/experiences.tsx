@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { ProjectBox } from '../main.tsx'
 
 const Experiences = () => {
   return (
@@ -18,9 +19,20 @@ const Experiences = () => {
 
       <div className="m-10 drop-shadow-lg">
         <h1 className="text-5xl font-bold mb-8">My Experiences</h1>
-        <p className="text-2xl">I have experience in molecular biology research and game development.</p>
-      </div>
+        <div className="flex flex-wrap gap-4">
+        <ProjectBox 
+        title="Japanese Delegate to AFS Global STEM Acadmies @India"
+        description="Completed 4 month entrepreneurship course by UPenn; Travelled in India for 1 month with full scholarship from BP alongside students from 14 countries."
+        image="src/assets/experiences/AFSIndia.JPG"
+        link="https://www.afs.or.jp/goabroad/global-stem-academies/"></ProjectBox>
 
+        <ProjectBox 
+        title="Japanese Delegate to the Asian Science Camp @Thailand"
+        description="Travelled to Thailand on full scholarship; Discussed recent innovations with Nobel Prize laureates and student representatives from 28+ countries"
+        image="src/assets/experiences/ASCThailand.JPG"
+        link="https://asc2025.sut.ac.th"></ProjectBox>
+      </div>
+      </div>
       <div className="bottom-bar">
       <span className="text-3xl font-bold mb-4">My Social Media</span>
       <div className="flex space-x-4">

@@ -5,11 +5,11 @@ interface ButtonProps {
 
 const Button = (props: ButtonProps) => {
     const handleClick = () => {
-        alert('Button clicked!');
         window.location.href = props.url;
     };
     return (
-        <button onClick={handleClick}>
+        
+        <button className="bg-[#e17275] mx-auto" onClick={handleClick}>
             {props.text}
         </button>
     );
