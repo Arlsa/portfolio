@@ -40,7 +40,7 @@ body {
   min-height: 100vh;
   background-color: var(--primary);
   color: var(--soft);
-  background-image: url('src/assets/blob-scene-bg.svg');
+  background-image: url('/blob-scene-bg.svg');
   background-size: cover;
 }
 

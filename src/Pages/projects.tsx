@@ -1,10 +1,13 @@
 import { Link } from 'react-router-dom'
 import { ProjectBox } from '../main'
 
-import PlantResearch from '../assets/projects/tani_jspp4.pdf'
-import iGEMResearch from '../assets/projects/2024mbsj_igem.pdf'
+import PlantResearch from '../assets/projects/plantResearchPoster.png'
+import iGEMResearch from '../assets/projects/iGEMposter.png'
 import OkotoneApp from '../assets/projects/Okotone.001.png'
 import MinamiSanrikuVideo from '../assets/projects/minamisanrikuVideo.png'
+
+import linkedin from '../assets/linkedin.svg'
+import instagram from '../assets/instagram.svg'
 
 const Projects = () => {
   return (
@@ -55,10 +58,10 @@ const Projects = () => {
       <span className="text-3xl font-bold mb-4">My Social Media</span>
       <div className="flex space-x-4">
         <a href="https://www.linkedin.com/in/arisa-tani-a85473337/">
-          <img src="src/assets/linkedin.svg" alt="LinkedIn" className="w-12 h-12" />
+          <img src={linkedin} alt="LinkedIn" className="w-12 h-12" />
         </a>
         <a href="https://www.instagram.com/arisa.2529/">
-          <img src="src/assets/instagram.svg" alt="Instagram" className="w-12 h-12" />
+          <img src={instagram} alt="Instagram" className="w-12 h-12" />
         </a>
       </div>
     </div>
