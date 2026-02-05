@@ -1,5 +1,8 @@
 import { Link } from 'react-router-dom'
 
+import linkedin from '../assets/linkedin.svg'
+import instagram from '../assets/instagram.svg'
+
 const About = () => {
   return (
     <>
@@ -29,10 +32,10 @@ const About = () => {
       <span className="text-3xl font-bold mb-4">My Social Media</span>
       <div className="flex space-x-4">
         <a href="https://www.linkedin.com/in/arisa-tani-a85473337/">
-          <img src="src/assets/linkedin.svg" alt="LinkedIn" className="w-12 h-12 mt-2" />
+          <img src={linkedin} alt="LinkedIn" className="w-12 h-12 mt-2" />
         </a>
         <a href="https://www.instagram.com/arisa.2529/">
-          <img src="src/assets/instagram.svg" alt="Instagram" className="w-12 h-12 mt-2" />
+          <img src={instagram} alt="Instagram" className="w-12 h-12 mt-2" />
         </a>
       </div>
     </div>

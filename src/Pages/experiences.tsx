@@ -1,6 +1,11 @@
 import { Link } from 'react-router-dom'
 import { ProjectBox } from '../main.tsx'
 
+import linkedin from '../assets/linkedin.svg'
+import instagram from '../assets/instagram.svg'
+import AFSIndia from '../assets/experiences/AFSIndia.jpg'
+import ASCThailand from '../assets/experiences/ASCThailand.jpg'
+
 const Experiences = () => {
   return (
     <>
@@ -23,13 +28,13 @@ const Experiences = () => {
         <ProjectBox 
         title="Japanese Delegate to AFS Global STEM Acadmies @India"
         description="Completed 4 month entrepreneurship course by UPenn; Travelled in India for 1 month with full scholarship from BP alongside students from 14 countries."
-        image="src/assets/experiences/AFSIndia.JPG"
+        image={AFSIndia}
         link="https://www.afs.or.jp/goabroad/global-stem-academies/"></ProjectBox>
 
         <ProjectBox 
         title="Japanese Delegate to the Asian Science Camp @Thailand"
         description="Travelled to Thailand on full scholarship; Discussed recent innovations with Nobel Prize laureates and student representatives from 28+ countries"
-        image="src/assets/experiences/ASCThailand.JPG"
+        image={ASCThailand}
         link="https://asc2025.sut.ac.th"></ProjectBox>
       </div>
       </div>
@@ -37,10 +42,10 @@ const Experiences = () => {
       <span className="text-3xl font-bold mb-4">My Social Media</span>
       <div className="flex space-x-4">
         <a href="https://www.linkedin.com/in/arisa-tani-a85473337/">
-          <img src="src/assets/linkedin.svg" alt="LinkedIn" className="w-12 h-12 mt-2" />
+          <img src={linkedin} alt="LinkedIn" className="w-12 h-12 mt-2" />
         </a>
         <a href="https://www.instagram.com/arisa.2529/">
-          <img src="src/assets/instagram.svg" alt="Instagram" className="w-12 h-12 mt-2" />
+          <img src={instagram} alt="Instagram" className="w-12 h-12 mt-2" />
         </a>
       </div>
     </div>

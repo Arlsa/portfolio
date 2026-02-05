@@ -1,6 +1,11 @@
 import { Link } from 'react-router-dom'
 import { ProjectBox } from '../main'
 
+import PlantResearch from '../assets/projects/tani_jspp4.pdf'
+import iGEMResearch from '../assets/projects/2024mbsj_igem.pdf'
+import OkotoneApp from '../assets/projects/Okotone.001.png'
+import MinamiSanrikuVideo from '../assets/projects/minamisanrikuVideo.png'
+
 const Projects = () => {
   return (
     <>
@@ -23,25 +28,25 @@ const Projects = () => {
         <ProjectBox 
         title="Independent Research on Plant Heavy Metal Tolerance"
         description="Selected as one of 20 research proposals by high school students by a government program. Conducted fully funded research under the instruction of Prof. Suetsugu at the Graduate School of Arts and Sciences (University of Tokyo)."
-        image="src/assets/projects/tani_jspp4.pdf"
+        image={PlantResearch}
         link="https://plant-photobiology.wixsite.com/website/ニュース"></ProjectBox>
 
         <ProjectBox 
         title="Team Research Project on Overproduction of Nattokinase"
         description="Co-founded and co-led a Japanese high school team competing in iGEM 2024. Conducted research on the overproduction of nattokinase and genetic engineering technology of B. subtilis var. natto in Suetsugu lab at Rikkyo University. Mainly in charge of wet lab, especially measurement methods and presentation of experimental results (figure design and writing)."
-        image="src/assets/projects/2024mbsj_igem.pdf"
+        image={iGEMResearch}
         link="https://2024.igem.wiki/grand-tokyo/"></ProjectBox>
 
         <ProjectBox 
         title="Original App/Rhythm Game for Japanese traditional instrument Koto"
         description="Noticing a lack of resources for learning the Japanese traditional instrument koto, I created an original app with a virtual koto, recording features, and rhythm game, with Unity and C#. Published on App Store. Won the Best Design Award at the Tokyo Metropolitan High School Mobile App Contest 2022."
-        image="src/assets/projects/Okotone.001.png"
+        image={OkotoneApp}
         link="https://www.utokyo.ac.jp"></ProjectBox>
 
         <ProjectBox 
         title="Promo Video for Minami-Sanriku Town Tourism @Recruit Ltd. Internship"
         description="Selected as intern. Traveled to Minami-Sanriku and produced promotion video of the city (revival from the 2011 tsunami, philosophy of people and deep connection to ocean) to be used by Ministry of Foreign Affairs."
-        image="src/assets/molecular-biology-research.jpg"
+        image={MinamiSanrikuVideo}
         link="https://www.youtube.com/watch?v=hlQwcpxj4XU"></ProjectBox>
       </div>
     </div>
