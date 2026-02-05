@@ -36,9 +36,6 @@ const About = () => {
         </a>
       </div>
     </div>
-
-    /* Contact form here */
-
     </>
   )
 }
