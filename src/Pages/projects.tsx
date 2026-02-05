@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-
+import { ProjectBox } from '../main'
 
 const Projects = () => {
   return (
@@ -19,7 +19,31 @@ const Projects = () => {
       
     <div className="m-10 drop-shadow-lg">
       <h1 className="text-5xl font-bold mb-8">My Projects</h1>
-      <p className="text-2xl">Independent Research @UTokyo</p>
+      <div className="flex flex-wrap gap-4">
+        <ProjectBox 
+        title="Independent Research on Plant Heavy Metal Tolerance"
+        description="Selected as one of 20 research proposals by high school students by a government program. Conducted fully funded research under the instruction of Prof. Suetsugu at the Graduate School of Arts and Sciences (University of Tokyo)."
+        image="src/assets/molecular-biology-research.jpg"
+        link="https://www.utokyo.ac.jp"></ProjectBox>
+
+        <ProjectBox 
+        title="Team Research Project on Overproduction of Nattokinase"
+        description="Co-founded and co-led a Japanese high school team competing in iGEM 2024. Conducted research on the overproduction of nattokinase and genetic engineering technology of B. subtilis var. natto in Suetsugu lab at Rikkyo University. Mainly in charge of wet lab, especially measurement methods and presentation of experimental results (figure design and writing)."
+        image="src/assets/molecular-biology-research.jpg"
+        link="https://www.utokyo.ac.jp"></ProjectBox>
+
+        <ProjectBox 
+        title="Team Research Project on Overproduction of Nattokinase"
+        description="Co-founded and co-led a Japanese high school team competing in iGEM 2024. Conducted research on the overproduction of nattokinase and genetic engineering technology of B. subtilis var. natto in Suetsugu lab at Rikkyo University. Mainly in charge of wet lab, especially measurement methods and presentation of experimental results (figure design and writing)."
+        image="src/assets/molecular-biology-research.jpg"
+        link="https://www.utokyo.ac.jp"></ProjectBox>
+
+        <ProjectBox 
+        title="Team Research Project on Overproduction of Nattokinase"
+        description="Co-founded and co-led a Japanese high school team competing in iGEM 2024. Conducted research on the overproduction of nattokinase and genetic engineering technology of B. subtilis var. natto in Suetsugu lab at Rikkyo University. Mainly in charge of wet lab, especially measurement methods and presentation of experimental results (figure design and writing)."
+        image="src/assets/molecular-biology-research.jpg"
+        link="https://www.utokyo.ac.jp"></ProjectBox>
+      </div>
     </div>
 
     <div className="bottom-bar">

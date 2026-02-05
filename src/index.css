@@ -21,14 +21,17 @@ a {
   padding: 0 0.3em;
   color: var(--soft);
   font-size: 1.5em;
+  display: inline-block;
+  transition: transform 0.3s;
 }
 
 a:hover {
-  color: white;
+  transform: scale(1.05);
 }
 
-.nav {
+nav {
   display: flex;
+  gap: 1em;
 }
 
 body {
@@ -81,7 +84,8 @@ button {
 }
 
 button:hover {
-  border-color: var(--primary);
+  transform: scale(1.05);
+  transition: transform 0.3s;
 }
 
 button:focus,
@@ -91,6 +95,11 @@ button:focus-visible {
 
 img{
   filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
+}
+
+.snsicon:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s;
 }
 
 .bottom-bar {
